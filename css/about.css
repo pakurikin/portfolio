@@ -101,6 +101,11 @@ span {
     background-image: url(../img/javascript-icon.svg);
 }
 
+/* wordpressアイコン */
+.icon-wp {
+    background-image: url(../img/wordpress-icon.svg);
+}
+
 /* 星ランク3 */
 .rank-3 {
     background-image: url(../img/skill-rank3.png);
@@ -113,8 +118,8 @@ span {
 
 @media screen and (min-width: 768px) {
     .skill-icon {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         background-size: cover;
     }
 
@@ -125,7 +130,7 @@ span {
     }
 
     .skill-box {
-        width: 175px;
+        width: 250px;
     }
 
     .skill-title {
