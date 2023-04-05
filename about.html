@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="私について">
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="./img/logo.svg">
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <!-- グーグルフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header_inner">
+            <!-- タイトル -->
+            <h1>
+                <a href="./index.html" class="logo">
+                    <img src="./img/logo.svg" alt="ロゴ">
+                </a>
+            </h1>
+            <!-- タイトル -->
+
+            <!-- ナビゲーション -->
+            <nav id="nav">
+                <ul class="nav_inner">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./works-top.html">works</a></li>
+                    <li><a href="./about.html">about</a></li>
+                </ul>
+
+                <!-- ハンバガーメニュー -->
+                <div class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- ハンバガーメニュー -->
+            </nav>
+            <!-- 背景を黒くする -->
+            <div class="nav_bg"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 背景固定 -->
+        <div class="about_mainvisual"></div>
+        <!-- スクロール -->
+        <div class="scroll_box">
+            <!-- about -->
+            <section id="sub_about" class="section_box">
+                <div class="wrapper">
+                    <h2 class="section_title">about</h2>
+
+                    <div class="sub_about_text-box fade-in-right">
+                        <p>1999年1月11日生まれ。徳島育ち。<br><br>
+                    モノづくりが好きで製造業に入社し、切削工具を固定するコレットチャックや組立機・検査機など組み立てるときに使う部品を作っていました。部品を作り納品すれば完了だったので働いているうちにお客さんに寄り添いながら働き、たくさんの人に自分が携わった物が役に立って喜んでもらえる仕事がしたいと思いました。<br><br>
+                    </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 背景固定 -->
+        <div class="skill_mainvisual"></div>
+        <div class="scroll_box">
+            <!-- skill -->
+            <section id="skill" class="section_box">
+                <div class="wrapper">
+                    <h2 class="section_title">skill</h2>
+
+                    <div class="skill_box fade-in-down">
+                        <!-- skill_item -->
+                        <div class="skill_item">
+                            <p class="skill_item_title">design</p>
+                            <p class="skill_item_comment">illustrator・photoshopy</p>
+                        </div>
+                        <!-- skill_item -->
+                        <div class="skill_item">
+                            <p class="skill_item_title">coding</p>
+                            <p class="skill_item_comment">html・css・jqury</p>
+                        </div>
+                        <!-- skill_item -->
+                        <div class="skill_item">
+                            <p class="skill_item_title">other</p>
+                            <p class="skill_item_comment">php・wordpress</p>
+                        </div>
+                        <p class="skill_item_comment">php・wordpressは勉強中</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 背景固定 -->
+        <div class="vision_mainvisual"></div>
+        <div class="scroll_box">
+            <!-- vision -->
+            <section id="vision" class="section_box">
+                <div class="wrapper">
+                    <h2 class="section_title">vision</h2>
+
+                    <div class="vision_box">
+                        <!-- vision_item -->
+                        <picture class="vision_pic fade-in-left">
+                            <img src="./img/about-sub.JPG" alt="ビジョン画像">
+                        </picture>
+
+                        <div class="vision_text fade-in-right">
+                            <p class="vision_comment">
+                                お客さんとのコミュニケーションの中から将来のイメージをカタチにするようなWEBデザイナーになりたいと考えました。
+                                またサイトデザインやコーディングのフロントエンド側だけでなくバックエンド側も詳しくなりフルスタックに働ける人材なれるよう日々勉強しています。
+                                製造業で培った<span>協調性</span>と<span>集中力</span>を活かし、常に挑戦し続けます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <small class="copylight">copylight 2023 AKM</small>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

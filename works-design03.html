@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="自己紹介サイト">
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="./img/logo.svg">
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <!-- グーグルフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/works-design.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header_inner">
+            <!-- タイトル -->
+            <h1>
+                <a href="./index.html" class="logo">
+                    <img src="./img/logo.svg" alt="ロゴ">
+                </a>
+            </h1>
+            <!-- タイトル -->
+
+            <!-- ナビゲーション -->
+            <nav id="nav">
+                <ul class="nav_inner">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./works-top.html">works</a></li>
+                    <li><a href="./about.html">about</a></li>
+                </ul>
+
+                <!-- ハンバガーメニュー -->
+                <div class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- ハンバガーメニュー -->
+            </nav>
+            <!-- 背景を黒くする -->
+            <div class="nav_bg"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- works_design -->
+        <section id="works_design">
+            <div class="wrapper">
+                <h2 class="section_title">chirashidesign</h2>
+
+                <!-- <div class="works_kye">
+                    <img src="./img/facebookcover-icon.png" alt="ファーストビュー">
+                </div> -->
+
+                <div class="works_design_wrap">
+                    <div class="design_box">
+                        <div class="design_box_pic chirashi_pic">
+                            <img src="./img/kaisendon-tirashi.png" alt="海鮮丼チラシ">
+                        </div>
+
+                        <div class="design_box_text">
+                            <p class="design_comment">海鮮丼のチラシを作成しました。<br>
+                            和柄を活かし華やかさや格式の高さが出るよう波のイラストや花柄の帯を使いデザインしました。</p>
+                        </div>
+                    </div>
+
+                    <div class="design_box">
+                        <div class="design_box_pic chirashi_pic">
+                            <img src="./img/kazyuaru-tirashi.png" alt="カジュアルチラシ">
+                        </div>
+
+                        <div class="design_box_text">
+                            <p class="design_comment">カジュアルコーデのチラシのを作成しました。<br>
+                            画像のバランスを考えながら、全体的に統一感のあるデザインになるよう意識しました。
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="design_box">
+                        <div class="design_box_pic chirashi_pic">
+                            <img src="./img/kafe-tirashi.png" alt="コーヒーのチラシ">
+                        </div>
+
+                        <div class="design_box_text">
+                            <p class="design_comment">コーヒーカフェのチラシを作成しました。<br>
+                            伝えたい情報を絞って掲載することで見やすいチラシになるようなデザインにしました。
+                        </p>
+                        </div>
+                    </div>
+
+                    <!-- topボタン -->
+                    <div class="more_btn top_btn">
+                        <a href="./works-top.html">TOPへ戻る</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small class="copylight">copylight 2023 AKM</small>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

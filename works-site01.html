@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="自己紹介サイト">
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="./img/logo.svg">
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <!-- グーグルフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/works-site.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header_inner">
+            <!-- タイトル -->
+            <h1>
+                <a href="./index.html" class="logo">
+                    <img src="./img/logo.svg" alt="ロゴ">
+                </a>
+            </h1>
+            <!-- タイトル -->
+
+            <!-- ナビゲーション -->
+            <nav id="nav">
+                <ul class="nav_inner">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./works-top.html">works</a></li>
+                    <li><a href="./about.html">about</a></li>
+                </ul>
+
+                <!-- ハンバガーメニュー -->
+                <div class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- ハンバガーメニュー -->
+            </nav>
+            <!-- 背景を黒くする -->
+            <div class="nav_bg"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- works_site -->
+        <section id="works_site">
+            <div class="wrapper">
+                <h2 class="section_title">AKM美容室</h2>
+
+                <div class="works_kye">
+                    <img src="./img/AKMcut-FAST.jpg" alt="ファーストビュー">
+                </div>
+
+                <div class="table_wrap">
+                    <dl class="works_site_table fade-in-down">
+                        <dt class="works_site_title">概要</dt>
+                        <dd class="works_site_data">仮想美容室サイト</dd>
+                        <dt class="works_site_title">このサイトについて</dt>
+                        <dd class="works_site_data">徳島に住んでいる女子中高生に見てもらい興味を持ってもらい予約してもらえるようなサイトを作りました。
+                        </dd>
+                        <dt class="works_site_title">制作期間</dt>
+                        <dd class="works_site_data">一か月（企画：三日、デザイン：二週間、コーディング：四日）</dd>
+                        <dt class="works_site_title">ターゲット</dt>
+                        <dd class="works_site_data">散髪をしたい人や自分に似合う髪型が気になっている徳島県に住んでいる女子中高生。</dd>
+                        <dt class="works_site_title">デザイン</dt>
+                        <dd class="works_site_data">シンプルなレイアウトで白色と灰色をメインで使うことで高級感を出しました。またハサミのイラストを使うことで、高級感の中に可愛さをだし女子中高生が喜んでもらえるようなデザインにしました。
+                        </dd>
+                        <dt class="works_site_title">使用ツール</dt>
+                        <dd class="works_site_data">illustrator、Photoshopy、html、css、jquery</dd>
+                    </dl>
+                </div>
+
+                <div class="works_site_wrap fade-in-left">
+                    <div class="works_site_pc works_site_pic">
+                        <img src="./img/AKMcut-PC.jpg" alt="pc">
+                    </div>
+
+                    <div class="works_site_sp works_site_pic">
+                        <img src="./img/AKMcut-SP.jpg" alt="sp">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 感想 -->
+            <div class="works_thoughts_wrap">
+                <div class="works_thoughts_text fade-in-down">
+                    <h3 class="works_thoughts_title">作ってみて</h3>
+                    <p class="works_thoughts_comment">高級感と可愛さをどうデザインに表すのかを考えるのが難しかったです。またスタイリストの写真やレビューを入れることで、信頼を高め顧客集客できるサイトを作れたと思います。
+                </p>
+                </div>
+
+                <!-- topボタン -->
+                <div class="more_btn top_btn">
+                    <a href="./works-top.html">TOPへ戻る</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small class="copylight">copylight 2023 AKM</small>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

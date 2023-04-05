@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.section_title {
+    margin-bottom: 40px;
+}
+
+.works_kye {
+    width: 100%;
+    padding: 20px 20px 60px;
+}
+
+.works_kye img {
+    max-width: 100%;
+    height: auto;
+}
+
+.works_site_comment {
+    margin: 0 auto;
+}
+
+.table_wrap {
+    margin: 40px 20px;
+}
+
+.works_site_table {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* background-color: #D3ECFF; */
+}
+
+.works_site_title {
+    width: 40%;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.works_site_data {
+    width: 60%;
+    padding-bottom: 30px;
+}
+
+/* スクリーンショット */
+.works_site_wrap {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 60px;
+}
+
+.works_site_pic {
+    padding: 0 20px;
+}
+
+.works_site_pic img {
+    width: 100%;
+    height: auto;
+}
+
+.works_thoughts_wrap {
+    padding: 40px 20px;
+    background-color: #D3ECFF;
+}
+
+.works_thoughts_text {
+    max-width: 800px;
+    padding: 40px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.works_thoughts_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* トップボタン */
+.top_btn {
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .works_site_wrap {
+        padding: 60px 0;
+    }
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="自己紹介サイト">
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="./img/logo.svg">
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <!-- グーグルフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header_inner">
+            <!-- タイトル -->
+            <h1>
+                <a href="./index.html" class="logo">
+                    <img src="./img/logo.svg" alt="ロゴ">
+                </a>
+            </h1>
+
+            <!-- タイトル -->
+
+            <!-- ナビゲーション -->
+            <nav id="nav">
+                <ul class="nav_inner">
+                    <li><a href="#">home</a></li>
+                    <li><a href="./works-top.html">works</a></li>
+                    <li><a href="./about.html">about</a></li>
+                </ul>
+
+                <!-- ハンバガーメニュー -->
+                <div class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- ハンバガーメニュー -->
+            </nav>
+            <!-- 背景を黒くする -->
+            <div class="nav_bg"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- mainvisual -->
+        <div class="mainvisual wrapper">
+            <div class="kye_pic">
+                <img src="./img/about-vision .jpg" alt="メインビジュアル">
+            </div>
+
+            <div class="mainvisual_text">
+                <p class="mainvisual_title">portfolio <br>
+                    2023 AKM</p>
+            </div>
+        </div>
+
+        <!-- works -->
+        <section id="works">
+            <div class="wrapper">
+                <h2 class="section_title">works</h2>
+
+                <div class="works_list">
+                    <article class="works_item fade-in-left">
+                        <a href="./works-site01.html">
+                            <img src="./img/AKMcut-kye.jpg" alt="散髪屋">
+                            <div class="hover-mask">
+                                <p>仮想美容室サイト</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="works_item fade-in-left">
+                        <a href="./works-site02.html">
+                            <img src="./img/awa-nolife-kye.jpg" alt="農業体験">
+                            <div class="hover-mask">
+                                <p>農業体験サイト</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="works_item fade-in-left">
+                        <a href="./works-site03.html">
+                            <img src="./img/portfolio-kye.jpg" alt="ポートフォリオ">
+                            <div class="hover-mask">
+                                <p>ポートフォリオサイト</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="works_item fade-in-left">
+                        <a href="./works-site04.html">
+                            <img src="./img/house-kye.jpg" alt="ハウス">
+                            <div class="hover-mask">
+                                <p>模写サイト</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="works_item fade-in-left">
+                        <a href="./works-site05.html">
+                            <img src="./img/wagasi-kye.jpg" alt="和菓子">
+                            <div class="hover-mask">
+                                <p>模写サイト</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="works_item fade-in-left">
+                        <a href="./works-site06.html">
+                            <img src="./img/BBBschool-kye.jpg" alt="英語スクール">
+                            <div class="hover-mask">
+                                <p>模写サイト</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+                <!-- moreボタン -->
+                <div class="more_btn">
+                    <a href="./works-top.html">more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            <div class="wrapper">
+                <h2 class="section_title">about</h2>
+
+                <div class="about_box">
+                    <div class="about_pic fade-in-left">
+                        <img src="./img/profile02.jpg" alt="自画像">
+                    </div>
+
+                    <div class="about_text fade-in-right">
+                        <p class="about_title">秋山達哉</p>
+                        <p class="about_comment">製造業に4年間従事した後、webプログラマー養成科の職業訓練に通う。卒業制作のwebサイト制作の際は、フロントエンド班でデザイン・コーディング・デバックを担当。</p>
+                        <!-- moreボタン -->
+                        <div class="more_btn">
+                            <a href="./about.html">more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small class="copylight">copylight 2023 AKM</small>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

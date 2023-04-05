@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+span {
+    color: red;
+}
+
+.wrapper {
+    padding-bottom: 40px;
+}
+
+/* セクションタイトル */
+#sub_about .section_title {
+    padding-top: 10px;
+}
+
+#skill .section_title {
+    padding-top: 10px;
+}
+
+#vision .section_title {
+    padding-top: 10px;
+}
+
+#sub_about .section_title::before {
+    top: 80%;
+}
+
+#skill .section_title::before {
+    top: 80%;
+}
+
+#vision .section_title::before {
+    top: 80%;
+}
+
+/* セクションタイトルのサブコメント */
+#sub_about .section_title::before {
+    content: "私について";
+    width: 100px;
+    transform: translate(-50px, 12.5px);
+}
+
+/* セクションタイトルのサブコメント */
+#skill .section_title::before {
+    content: "できること";
+    width: 100px;
+    transform: translate(-50px, 12.5px);
+}
+
+/* セクションタイトルのサブコメント */
+#vision .section_title::before {
+    content: "今後のこと";
+    width: 100px;
+    transform: translate(-50px, 12.5px);
+}
+
+/* 固定画像 */
+.about_mainvisual {
+    background-image: url(../img/hiro-img.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+}
+
+/* 固定画像 */
+.skill_mainvisual {
+    background-image: url(../img/hiro-img.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+
+/* 固定画像 */
+.vision_mainvisual {
+    background-image: url(../img/hiro-img.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+
+/* パララックス */
+.scroll_box {
+    /* background-color: #D3ECFF; */
+    width: 100%;
+    height: 100%;
+}
+
+.section_box {
+    width: 100%;
+    /* padding: 20px; */
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    #sub_about .section_title {
+        padding-top: 40px;
+    }
+
+    #skill .section_title {
+        padding-top: 40px;
+    }
+
+    #vision .section_title {
+        padding-top: 40px;
+    }
+
+    .section_box {
+        padding: 20px;
+        background-color: #fff;
+    }
+}
+
+/* abut */
+.sub_about_text-box {
+    width: 310px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .sub_about_text-box {
+        width: auto;
+    }
+}
+
+/* skill */
+.skill_box {
+    background-color: #D3ECFF;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.skill_item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.skill_item:last-child {
+    margin-bottom: 0px;
+}
+
+.skill_item_title {
+    font-weight: bold;
+}
+
+.skill_item_title::after {
+    content: ":";
+    padding-right: 10px;
+}
+
+.skill_item_comment:last-child {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .skill_box {
+        width: 380px;
+    }
+
+    .skill_item {
+        margin-bottom: 20px;
+    }
+}
+
+/* vision */
+.vision_pic {
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto 30px;
+}
+
+.vision_pic img {
+    width: 100%;
+    height: 267px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.vision_text {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.vision_comment {
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .vision_box {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .vision_pic {
+        margin: 0 60px 30px 0;
+    }
+
+    .vision_text {
+        padding: 0;
+        margin: 0;
+        width: 400px;
+    }
+}
